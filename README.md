@@ -17,9 +17,10 @@ Git-For-Geeks in as open source contribution event conducted by Geeks-for-Geeks 
 
 ## *****How to contribute?*****
 
-- Clone the Repository.
 - Create an issue telling us about the fix or improvement you want to make.
 - Wait for the maintainer to assign you the issue.
+- Clone this Repository.
+- Fork the cloned repository.
 - You can start working as soon as the issue is assigned to you.
 - Now if you have successfully completed your work, you are ready to make the pull request.
 - Congrats, you have made your PR! Now wait for the Maintainer to check for the plagiarism and project working.
