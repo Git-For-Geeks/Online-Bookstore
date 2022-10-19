@@ -14,7 +14,6 @@ Git-For-Geeks in as open source contribution event conducted by Geeks-for-Geeks 
 - You can resolve the existing issues or create your own.
 - Please add [fix] or [feat] before the issue name to tell if you are fixing an existing bug or adding a new feature.
 
-
 ## *****How to contribute?*****
 
 - Create an issue telling us about the fix or improvement you want to make.
