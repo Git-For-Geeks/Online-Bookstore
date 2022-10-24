@@ -1,22 +1,20 @@
-.heading
-{
-  color: #FFF4F4;   
+.heading {
+	color: black;
 }
 
 
-.contact-info, .payment-info
-{
-    max-width: 450px;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+.contact-info,
+.payment-info {
+	max-width: 450px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.all
-{
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+.all {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.contact-info fieldset, .payment-info fieldset
-{
+.contact-info fieldset,
+.payment-info fieldset {
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -30,7 +28,7 @@
 }
 
 .payment-info input[type=submit],
-.payment-info input[type=button]{
+.payment-info input[type=button] {
 	background: #1b5d5f;
 	border: 1px solid #145b6d;
 	padding: 5px 15px 5px 15px;
@@ -41,8 +39,6 @@
 	border-radius: 3px;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;	
+	-moz-border-radius: 3px;
 	font-weight: bold;
 }
-
-
