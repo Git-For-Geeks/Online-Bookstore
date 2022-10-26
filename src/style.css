@@ -60,6 +60,25 @@ table.styled-table {
     height: 25px;
 }
 
+.star{
+    height: 24;
+    width: 24;
+}
+
+.blacktext{
+    color:#000000;
+    font-size: 15px;
+}
+
+.smalltext{
+    font-size: 15px;
+    
+}
+
+.uitext{
+    font-family: "Lato";
+}
+
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
