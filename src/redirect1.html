@@ -7,9 +7,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Page 2</title>
 </head>
+<style>
+  body{
+    background-image: url(../assets/images/back2.jpg);
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position: fixed; */
+    /* background: fixed; */
+  }
+  h2 i{
+    font-size: 50px;
+    text-shadow: 4px 4px 2px #000;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .books{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .audio-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .books-header{
+    margin: 40px;
+  }
+  .books-header h2{
+    font-size: 20px;
+    text-shadow: 4px 4px 2px #000;
+  }
+  .books-header{
+    transition: 0.5s;
+  }
+  .books-header:hover{
+    transform: scale(1.2);
+  }
+  .audio-b{
+    margin-left: 40px;
+    transition: 0.5s;
+  }
+  .audio-b audio{
+    transition: 0.5s;
+  }
+  .audio-b audio:hover{
+    transform: scale(1.2);
+  }
+  .books-header img{
+    box-shadow: 4px 4px 3px #000;
+  }
+</style>
 
-<body BACKGROUND="../assets/images/back2.jpg">
-
+<!-- <body BACKGROUND="../assets/images/back2.jpg"> -->
+<body>
+  
   <center>
     <font size="+1">
       <h2><i>
@@ -18,33 +76,71 @@
     </font>
   </center>
   <br>
-  <h2>
-    <font color="white"> Sherlock Holmes </font>
-  </h2>
-  <audio controls>
-    <source src="../assets/audio/sherlock.mp3" type="audio/mp3">
-  </audio>
+  <div class="container">
 
-  <h2>
-    <font color="white"> Jane Eyre </font>
-  </h2>
-  <audio controls>
-    <source src="../assets/audio/jane eyre.mp3" type="audio/mp3">
-  </audio>
+    <div class="books">
+      <div class="books-header">
+        <h2>
+          <font color="white"> Sherlock Holmes </font>
+        </h2>
+        <img src="../assets/images/sherlock.jpg" width="300" height="300"
+                    align="LEFT">
+      </div>
+      <div class="audio-b">
+        <audio controls>
+          <source src="../assets/audio/sherlock.mp3" type="audio/mp3">
+        </audio>
+      </div>
+    </div>
+   
+    <div class="books">
+      <div class="books-header">
+        <h2>
+          <font color="white"> Jane Eyre </font>
+        </h2>
+        <img src="../assets/images/jane.jpg" width="300" height="300"
+                    align="LEFT">
+      </div>
+      <div class="audio-b">
+        <audio controls>
+          <source src="../assets/audio/jane eyre.mp3" type="audio/mp3">
+        </audio>
+      </div>
+    </div>
+ 
+    <div class="books">
+      <div class="books-header">
+        <h2>
+          <font color="white"> Romeo and Juliet </font>
+        </h2>
+        <img src="../assets/images/romeo.jpg" width="300" height="300"
+                    align="LEFT">
+      </div>
+      <div class="audio-b">
+        <audio controls>
+          <source src="../assets/audio/romeo.mp3" type="audio/mp3">
+        </audio>
+      </div>
+    </div>
+    
+    <div class="books">
+      <div class="books-header">
+        <h2>
+          <font color="white"> The Haunting of Hill House </font>
+        </h2>
+        <img src="../assets/images/the haunting.jpg" width="300" height="300"
+                    align="LEFT">
+      </div>
+      <div class="audio-b">
+        <audio controls>
+          <source src="../assets/audio/the haunting.mp3" type="audio/mp3">
+        </audio>
+      </div>
+    </div>
+    
 
-  <h2>
-    <font color="white"> Romeo and Juliet </font>
-  </h2>
-  <audio controls>
-    <source src="../assets/audio/romeo.mp3" type="audio/mp3">
-  </audio>
-
-  <h2>
-    <font color="white"> The Haunting of Hill House </font>
-  </h2>
-  <audio controls>
-    <source src="../assets/audio/the haunting.mp3" type="audio/mp3">
-  </audio>
+  </div>
+  
 
 </body>
 
